@@ -98,7 +98,7 @@ img {
       margin-top: 0.2rem; }
   .article .content p {
     margin-top: 0.6666666667rem;
-    font-size: 0.4266666667rem; }
+    font-size: 0.3733333333rem; }
   .article .two_img {
     margin-top: 0.5866666667rem;
     overflow: hidden; }
@@ -159,6 +159,7 @@ img {
         top: 0;
         left: 0.5333333333rem;
         font-size: 0.16rem;
+        font-weight: 700;
         color: #fff;
         width: 0.2666666667rem;
         height: 0.2666666667rem;

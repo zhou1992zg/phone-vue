@@ -15,6 +15,9 @@ img{
 	width: rem(223.5px);
 	height: rem(145px);
 }
+body{
+	font-weight: 200;
+}
 // 头部
 .top{
 	position:fixed;
@@ -222,7 +225,7 @@ img{
 		margin-top: rem(22px);
 		width: rem(688px);
 		height: rem(688px);
-		border: 1px solid #999;
+		border: 1px solid #ccc;
 		.user_name{
 			margin-top: rem(20px);
 			font-size: rem(28px);
@@ -240,6 +243,43 @@ img{
 		}
 	}
 }
+.footer_login{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+	height: rem(82px);
+	background: #fff;
+	border-bottom: 1px solid #E8E8E8;
+	border-top: 1px solid #ccc;
+	.logo{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: rem(186px);
+		color: #505050;
+		span{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: rem(48px);
+		}
+		p{	
+			font-family: '微软雅黑';
+			font-size: rem(18px);
+			text-align: center;
+			margin-top: rem(-5px);
+		}
+	}
+	.logo:hover{
+		color: red;
+		background: #D9E7FA;
+		border-radius: 10px;
+	}
+}
+.content_box{
+	overflow: hidden;
+}
 .footer{
 	position:fixed;
 	bottom:0;
@@ -251,7 +291,7 @@ img{
 	height: rem(82px);
 	background: #fff;
 	border-bottom: 1px solid #E8E8E8;
-	border-top: 1px solid #505050;
+	border-top: 1px solid #ccc;
 	.logo{
 		display: flex;
 		align-items: center;

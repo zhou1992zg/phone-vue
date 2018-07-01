@@ -15,6 +15,9 @@ img {
   width: 2.98rem;
   height: 1.9333333333rem; }
 
+body {
+  font-weight: 200; }
+
 .top {
   position: fixed;
   top: 0;
@@ -188,7 +191,7 @@ img {
     margin-top: 0.2933333333rem;
     width: 9.1733333333rem;
     height: 9.1733333333rem;
-    border: 1px solid #999; }
+    border: 1px solid #ccc; }
     .content_two .content_img_img .user_name {
       margin-top: 0.2666666667rem;
       font-size: 0.3733333333rem;
@@ -202,6 +205,39 @@ img {
       height: 100%;
       margin-bottom: 1.0666666667rem; }
 
+.footer_login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 1.0933333333rem;
+  background: #fff;
+  border-bottom: 1px solid #E8E8E8;
+  border-top: 1px solid #ccc; }
+  .footer_login .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.48rem;
+    color: #505050; }
+    .footer_login .logo span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.64rem; }
+    .footer_login .logo p {
+      font-family: '微软雅黑';
+      font-size: 0.24rem;
+      text-align: center;
+      margin-top: -0.0666666667rem; }
+  .footer_login .logo:hover {
+    color: red;
+    background: #D9E7FA;
+    border-radius: 10px; }
+
+.content_box {
+  overflow: hidden; }
+
 .footer {
   position: fixed;
   bottom: 0;
@@ -213,7 +249,7 @@ img {
   height: 1.0933333333rem;
   background: #fff;
   border-bottom: 1px solid #E8E8E8;
-  border-top: 1px solid #505050; }
+  border-top: 1px solid #ccc; }
   .footer .logo {
     display: flex;
     align-items: center;
